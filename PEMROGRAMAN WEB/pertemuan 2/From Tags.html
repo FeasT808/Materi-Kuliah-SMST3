@@ -11,5 +11,71 @@
     <input type="checkbox" nama="Laki-laki"/>Laki-laki 
     <input type="checkbox" nama="Perempuan"/>Perempuan <br>
 
+
+    <form>
+        <label for="id">Masukan ID:</label><br>
+        <input type="text" id="id" name="id" value="ID"><br>
+        <label for="password">Masukan Password:</label><br>
+        <input type="password" id="password" name="password" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <label for="id">Masukan ID:</label><br>
+        <input type="text" id="id" name="id" value="ID" readonly><br>
+        <label for="password">Masukan Password:</label><br>
+        <input type="password" id="password" name="password" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+     <form>
+        <label for="id">Masukan ID:</label><br>
+        <input type="text" id="id" name="id" value="ID" disabled><br>
+        <label for="password">Masukan Password:</label><br>
+        <input type="password" id="password" name="password" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <label for="id">Masukan ID:</label><br>
+        <input type="text" id="id" name="id" value="ID" size="10"><br>
+        <label for="password">Masukan Password:</label><br>
+        <input type="password" id="password" name="password" value="" size="5"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <label for="id">Masukan ID:</label><br>
+        <input type="text" id="id" name="id" minlength="4" value="ID"><br>
+        <label for="password">Masukan Password:</label><br>
+        <input type="password" id="password" name="password" maxlength="12" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <label for="files">Upload File:</label><br>
+        <input type="file" id="files" name="files" multiple/><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <label for="nomor telepon">Masukan Nomor Telepon:</label><br>
+        <input
+            type="tel"
+            id="nomor telepon"
+            name="nomor telepon"
+            placeholder="+62 123-456-7890"
+            pattern="[0-9]{2} [0-9]{3}-[0-9]{3}-[0-9]{4}"
+        />    
+    </form>
+
+    <form>
+        <label for="id">Masukan ID:</label><br>
+        <input type="text" id="id" name="id" value="ID"> <br>
+        <label for="password">Masukan Password:</label><br>
+        <input type="password" id="password" name="password" required value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
 </body>
 </html>
