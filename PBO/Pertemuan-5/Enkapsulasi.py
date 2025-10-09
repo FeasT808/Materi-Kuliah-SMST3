@@ -1,3 +1,5 @@
+#FADLI 624C0002
+
 class Kendaraan:
   def __init__(self, merk, tahun, kapasitas_tangki):
     self.merk = merk
